@@ -12,6 +12,7 @@ namespace quickhull {
 	public:
 		Vector3() = default;
 		
+		Vector3(T x, T y, T z) : x(x), y(y), z(z) {}
 		Vector3(T x, T y, T z, bool obstacle, int idx) : x(x), y(y), z(z), obstacle(obstacle), idx(idx) {}
 		
 		T x,y,z;
