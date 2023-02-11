@@ -1,3 +1,9 @@
+### What's added
++ index in Vertor3 struct: index from original point data (for faster access)
++ if the point data is from obstacles or not
+
+<br>
+
 This implementation is 100% Public Domain.
 
 Feel free to use.
